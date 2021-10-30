@@ -46,9 +46,6 @@ def findBestOptions(
     isCVShuffle = True,
 ):
     """
-    Raise ValueError if the `names` parameter contains duplicates or has an
-    invalid data type.
-
     Parameters
     ----------
     - `X`: pandas.DataFrame
@@ -72,14 +69,6 @@ def findBestOptions(
       - `best_cv_k_`: k value in K-fold CV what has best score.
     - `best_score_`: double
       - Represent the score of the `best_params`.
-
-    See Also
-    ----------
-    to_csv : Write DataFrame to a comma-separated values (csv) file.
-
-    Examples
-    ----------
-    >>> pd.read_csv('data.csv')  # doctest: +SKIP
     """
 
     # Initialize variables
