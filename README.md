@@ -1,5 +1,6 @@
 # Programming Homework #1
  - Auto ML for classification
+ - Made by 김도균
 
 ## findBestClassifierOptions
  - Goal: Compare performance (accuracy) of the following classification models against the same dataset.
